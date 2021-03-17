@@ -1,3 +1,4 @@
+```
 <?xml version="1.0"?>
 <cache-config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
               xmlns="http://xmlns.oracle.com/coherence/coherence-cache-config"
@@ -85,3 +86,4 @@
 
   </caching-schemes>
 </cache-config>
+```
