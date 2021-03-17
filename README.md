@@ -14,7 +14,7 @@ Currently the example is linked to a server that runs on 127.0.0.1 and on port 7
 
 You can find the server side configuration in the `server-side-cache-config.md`.
 
-The difficulty that I'm facing is with the 2.3 use case. I recommend you to go through the use cases in order so you got the big picture. They are not so long. 
+The difficulty that I'm facing is with the 2.3 use case. I recommend you to go through the use cases so you got the big picture. They are not so long. 
 
 # 2. Use cases 
 
