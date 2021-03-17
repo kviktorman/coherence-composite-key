@@ -12,6 +12,8 @@ It has 3 API calls, all of them are defined as HTTP GET.
 
 Currently the example is linked to a server that runs on 127.0.0.1 and on port 7574. This you can change in the `src/main/resources/coherence-extend-client-config.xml` file.
 
+You can find the server side configuration in the `server-side-cache-config.md`.
+
 # 2. Use cases 
 
 ## 2.1 populate database and check if cache is used
