@@ -89,7 +89,7 @@ You can use the same client that populated the cache, the only thing which you h
     0 nanoseconds spent executing 0 partial-flushes (flushing a total of 0 entities and 0 collections)
 }
 ```
-## 2.2 load simcomposite key object from cache with (restarted/another) client
+## 2.2 load composite key object from cache with (restarted/another) client
 
 You can use the same client that populated the cache, the only thing which you have to do for that is to restart the client while the cache server is still running. With this the data will be kept in the cache server, but your client will completely forget about everything. Now call the composite key API using the following link: `http://localhost:8080/get-composite-key-object`. What you will see is that the application will try to read it from the cache, but will not find it. Then it will try to read it from the database, but since it is not populated it will crash!
 
